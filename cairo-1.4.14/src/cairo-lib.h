@@ -228,7 +228,7 @@ void * getDLLEntry( void *pLib, const char * entryName)
 	char * error;
 	
 	if(temp == NULL) {
-		if(error=dlerror()) {
+		if((error=dlerror())) {
 			fprintf(stderr, "%s: not found error:%s\n",entryName, error);
 		} else {
 			fprintf(stderr, "%s: not found in dlyb\n", entryName);
