@@ -333,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_X86_VECTOR_INSTRUCTIONS = sse3;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -347,8 +348,10 @@
 					../../include/freetype/internal/services,
 				);
 				INSTALL_PATH = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = FreeType;
+				SDKROOT = macosx10.8;
 				USER_HEADER_SEARCH_PATHS = "../../include ../../include/freetype ../../include/freetype/config ../../include/freetype/internal ../../include/freetype/internal/services";
 			};
 			name = Debug;
@@ -357,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_X86_VECTOR_INSTRUCTIONS = sse3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PREPROCESSOR_DEFINITIONS = FT2_BUILD_LIBRARY;
@@ -368,7 +372,9 @@
 					../../include/freetype/internal/services,
 				);
 				INSTALL_PATH = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = FreeType;
+				SDKROOT = macosx10.8;
 				USER_HEADER_SEARCH_PATHS = "../../include ../../include/freetype ../../include/freetype/config ../../include/freetype/internal ../../include/freetype/internal/services";
 			};
 			name = Release;
