@@ -146,7 +146,6 @@
     ( MAC_OS_X_VERSION_MIN_REQUIRED >= MAC_OS_X_VERSION_10_5 )
  
     OSStatus  err;
-
     err = ATSFontGetFileReference( ats_font_id, ats_font_ref );
 
     return err;
@@ -183,6 +182,7 @@
 
     cf_fontName = CFStringCreateWithCString( NULL, fontName,
                                              kCFStringEncodingMacRoman );
+//    ats_font_id = CTFontCreateWithName ( cf_fontName, 12.0, kATSOptionFlagsUnRestrictedScope);
     ats_font_id = ATSFontFindFromName( cf_fontName,
                                        kATSOptionFlagsUnRestrictedScope );
     CFRelease( cf_fontName );
