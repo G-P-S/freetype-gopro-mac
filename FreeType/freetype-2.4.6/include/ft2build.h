@@ -33,7 +33,7 @@
 
 #include "freetype/config/ftheader.h"
 
-#endif /* __FT2_BUILD_GENERIC_H__ */
+#endif /* __FT2_BUILD_GENERIC_H__ */xcr
 
 
 /* END */
