@@ -352,7 +352,7 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = FreeType;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "../../include ../../include/freetype ../../include/freetype/config ../../include/freetype/internal ../../include/freetype/internal/services";
@@ -377,7 +377,7 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = FreeType;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "../../include ../../include/freetype ../../include/freetype/config ../../include/freetype/internal ../../include/freetype/internal/services";
